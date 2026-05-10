@@ -148,3 +148,40 @@ Test Loss: 0.583553
   
 Test Accuracy: 82.76%  
 
+# Model 5
+Trial 0 finished with value: 1.0342497535210344 and parameters: {'lr': 0.03812552774656006, 'dropout': 0.27492168439291537, 'layers': 2}. Best is trial 0 with value: 1.0342497535210344.  
+Trial 1 finished with value: 1.3449080120221817 and parameters: {'lr': 0.05145498060268359, 'dropout': 0.17934045427968567, 'layers': 5}. Best is trial 0 with value: 1.0342497535210344.  
+Trial 2 finished with value: 0.5881682232910237 and parameters: {'lr': 0.0005033770071413004, 'dropout': 0.2883321142740763, 'layers': 1}. Best is trial 2 with value: 0.5881682232910237.  
+Trial 3 finished with value: 0.5978326207035234 and parameters: {'lr': 0.020156449387812803, 'dropout': 0.11164672923582668, 'layers': 1}. Best is trial 2 with value: 0.5881682232910237.  
+Trial 4 finished with value: 0.6015862946621943 and parameters: {'lr': 0.0022255295054304015, 'dropout': 0.13883455796089958, 'layers': 4}. Best is trial 2 with value: 0.5881682232910237.  
+Trial 5 finished with value: 2.786785014462459 and parameters: {'lr': 0.012268359350670778, 'dropout': 0.4375074370910765, 'layers': 1}. Best is trial 2 with value: 0.5881682232910237.  
+Trial 6 finished with value: 0.6680680342134262 and parameters: {'lr': 0.0021116818997432415, 'dropout': 0.3036173675310965, 'layers': 3}. Best is trial 2 with value: 0.5881682232910237.  
+Trial 7 finished with value: 1.097993887196079 and parameters: {'lr': 0.015010277436566596, 'dropout': 0.17908770680431843, 'layers': 5}. Best is trial 2 with value: 0.5881682232910237.  
+Trial 8 finished with value: 0.620609493720036 and parameters: {'lr': 0.008135077451682533, 'dropout': 0.4548865116960104, 'layers': 1}. Best is trial 2 with value: 0.5881682232910237.  
+Trial 9 finished with value: 0.8406136075615823 and parameters: {'lr': 0.011043220560723144, 'dropout': 0.2614272686719165, 'layers': 5}. Best is trial 2 with value: 0.5881682232910237.  
+Trial 10 finished with value: 0.7869778479345453 and parameters: {'lr': 0.0001863615538855775, 'dropout': 0.3445831347919619, 'layers': 3}. Best is trial 2 with value: 0.5881682232910237.  
+Trial 11 finished with value: 0.5765838299579005 and parameters: {'lr': 0.00040450822079930694, 'dropout': 0.11191199720878825, 'layers': 1}. Best is trial 11 with value: 0.5765838299579005.  
+Trial 12 finished with value: 0.6011321464955478 and parameters: {'lr': 0.00035407352510633856, 'dropout': 0.20156064498087004, 'layers': 2}. Best is trial 11 with value: 0.5765838299579005.  
+Trial 13 finished with value: 0.5681297698943807 and parameters: {'lr': 0.0006133137072003846, 'dropout': 0.1012303934391405, 'layers': 2}. Best is trial 13 with value: 0.5681297698943807.  
+Trial 14 finished with value: 0.5598569185765433 and parameters: {'lr': 0.0008328891086566471, 'dropout': 0.10069299506672715, 'layers': 2}. Best is trial 14 with value: 0.5598569185765433.  
+**Best Hyperparameters: {'lr': 0.0008328891086566471, 'dropout': 0.10069299506672715, 'layers': 2}**
+# Training
+Loss  
+	training         	 (min:    0.503, max:    0.789, cur:    0.503)  
+	validation       	 (min:    0.563, max:    0.599, cur:    0.564)  
+lr  
+	lr               	 (min:    0.001, max:    0.001, cur:    0.001)  
+  
+Training: 100%|████████████████████████████| 5988/5988 [00:15<00:00, 397.69it/s]  
+Validating: 100%|██████████████████████████| 1997/1997 [00:02<00:00, 941.56it/s]  
+  
+Epoch: 9 | Training Loss: 0.498776 | Validation Loss: 0.564947  
+Early stopping!  
+
+
+# Testing
+Testing: 100%|█████████████████████████████| 2055/2055 [00:02<00:00, 771.84it/s]  
+  
+Test Loss: 0.594413  
+  
+Test Accuracy: 82.43%  
