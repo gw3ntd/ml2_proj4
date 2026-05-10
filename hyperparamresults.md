@@ -18,15 +18,15 @@ Trial 14 finished with value: 1.1652178306190384 and parameters: {'lr': 0.001310
 **Best Hyperparameters: {'lr': 0.0002670485308375261}**  
 ## Training
 Loss  
-	training         	 (min:    0.526, max:    1.584, cur:    0.526)  
-	validation       	 (min:    0.617, max:    0.944, cur:    0.618)  
+	training | (min:    0.526, max:    1.584, cur:    0.526)  
+	validation | (min:    0.617, max:    0.944, cur:    0.618)  
 lr  
-	lr               	 (min:    0.000, max:    0.000, cur:    0.000)  
+	lr | (min:    0.000, max:    0.000, cur:    0.000)  
 
 Training: 100%|████████████████████████████| 5988/5988 [00:09<00:00, 604.29it/s]  
 Validating: 100%|█████████████████████████| 1997/1997 [00:01<00:00, 1353.18it/s]  
   
-Epoch: 18 	Training Loss: 0.524423 	Validation Loss: 0.617353  
+Epoch: 18 | Training Loss: 0.524423 | Validation Loss: 0.617353  
 Early stopping!  
 ## Testing
 Testing: 100%|████████████████████████████| 2055/2055 [00:02<00:00, 1022.44it/s]  
@@ -56,15 +56,15 @@ Trial 14 finished with value: 0.653520072422806 and parameters: {'lr': 0.0009182
 **Best Hyperparameters: {'lr': 0.007485617230767867}**  
 ## Training  
 Loss  
-	training         	 (min:    0.376, max:    0.518, cur:    0.376)  
-	validation       	 (min:    0.662, max:    0.721, cur:    0.718)  
+	training | (min:    0.376, max:    0.518, cur:    0.376)  
+	validation | (min:    0.662, max:    0.721, cur:    0.718)  
 lr  
-	lr               	 (min:    0.007, max:    0.007, cur:    0.007)  
+	lr | (min:    0.007, max:    0.007, cur:    0.007)  
   
 Training: 100%|████████████████████████████| 5988/5988 [00:12<00:00, 481.90it/s]  
 Validating: 100%|█████████████████████████| 1997/1997 [00:01<00:00, 1059.62it/s]  
   
-Epoch: 8 	Training Loss: 0.376395 	Validation Loss: 0.714233  
+Epoch: 8 | Training Loss: 0.376395 | Validation Loss: 0.714233  
 Early stopping!  
 ## Testing
 Testing: 100%|█████████████████████████████| 2055/2055 [00:02<00:00, 795.77it/s]  
