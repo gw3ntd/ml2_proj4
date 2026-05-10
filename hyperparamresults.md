@@ -36,3 +36,41 @@ Test Loss: 0.652714
 Test Accuracy: 81.16%  
   
 
+# Model 2
+## Hyperparameter Tuning
+Trial 0 finished with value: 0.7128653508062117 and parameters: {'lr': 0.006278864000514243}. Best is trial 0 with value: 0.7128653508062117.  
+Trial 1 finished with value: 0.7882420560853387 and parameters: {'lr': 0.001686569562006473}. Best is trial 0 with value: 0.7128653508062117.  
+Trial 2 finished with value: 0.8061549878106992 and parameters: {'lr': 0.000106039038459265}. Best is trial 0 with value: 0.7128653508062117.  
+Trial 3 finished with value: 0.7741925743934089 and parameters: {'lr': 0.0027611136187393557}. Best is trial 0 with value: 0.7128653508062117.  
+Trial 4 finished with value: 0.8211485255112275 and parameters: {'lr': 0.0005524864205771905}. Best is trial 0 with value: 0.7128653508062117.  
+Trial 5 finished with value: 0.7773409317628587 and parameters: {'lr': 0.07891075166398406}. Best is trial 0 with value: 0.7128653508062117.  
+Trial 6 finished with value: 0.7320367783591577 and parameters: {'lr': 0.0001709536885837493}. Best is trial 0 with value: 0.7128653508062117.  
+Trial 7 finished with value: 0.6651949008360587 and parameters: {'lr': 0.017139708651829608}. Best is trial 7 with value: 0.6651949008360587.  
+Trial 8 finished with value: 0.6568227942266283 and parameters: {'lr': 0.007864971298497545}. Best is trial 8 with value: 0.6568227942266283.  
+Trial 9 finished with value: 0.6582907689889193 and parameters: {'lr': 0.003320326415442732}. Best is trial 8 with value: 0.6568227942266283.  
+Trial 10 finished with value: 0.6744115290996369 and parameters: {'lr': 0.029805495228009876}. Best is trial 8 with value: 0.6568227942266283.  
+Trial 11 finished with value: 0.6530512861299348 and parameters: {'lr': 0.007485617230767867}. Best is trial 11 with value: 0.6530512861299348.  
+Trial 12 finished with value: 0.6537508611745935 and parameters: {'lr': 0.009569582621297751}. Best is trial 11 with value: 0.6530512861299348.  
+Trial 13 finished with value: 0.6765461762621813 and parameters: {'lr': 0.02353308257954308}. Best is trial 11 with value: 0.6530512861299348.  
+Trial 14 finished with value: 0.653520072422806 and parameters: {'lr': 0.0009182647887506245}. Best is trial 11 with value: 0.6530512861299348.  
+**Best Hyperparameters: {'lr': 0.007485617230767867}**  
+## Training  
+Loss  
+	training         	 (min:    0.376, max:    0.518, cur:    0.376)  
+	validation       	 (min:    0.662, max:    0.721, cur:    0.718)  
+lr  
+	lr               	 (min:    0.007, max:    0.007, cur:    0.007)  
+  
+Training: 100%|████████████████████████████| 5988/5988 [00:12<00:00, 481.90it/s]  
+Validating: 100%|█████████████████████████| 1997/1997 [00:01<00:00, 1059.62it/s]  
+  
+Epoch: 8 	Training Loss: 0.376395 	Validation Loss: 0.714233  
+Early stopping!  
+## Testing
+Testing: 100%|█████████████████████████████| 2055/2055 [00:02<00:00, 795.77it/s]  
+  
+Test Loss: 0.674152  
+  
+Test Accuracy: 81.57%  
+
+
