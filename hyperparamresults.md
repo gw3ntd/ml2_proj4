@@ -185,3 +185,37 @@ Testing: 100%|██████████████████████
 Test Loss: 0.594413  
   
 Test Accuracy: 82.43%  
+
+# Model 6
+## Hyperparameter Tuning
+Trial 0 finished with value: 0.6218183046849477 and parameters: {'lr': 0.0003270003241163674, 'layers': 6}. Best is trial 0 with value: 0.6218183046849477.  
+Trial 1 finished with value: 0.6568008756556986 and parameters: {'lr': 0.0007364530377841315, 'layers': 3}. Best is trial 0 with value: 0.6218183046849477.  
+Trial 2 finished with value: 0.7198770175434734 and parameters: {'lr': 0.008479678857114082, 'layers': 6}. Best is trial 0 with value: 0.6218183046849477.  
+Trial 3 finished with value: 0.7099448090785733 and parameters: {'lr': 0.05939200205865106, 'layers': 8}. Best is trial 0 with value: 0.6218183046849477.  
+Trial 4 finished with value: 0.7045303926573255 and parameters: {'lr': 0.009683854195637588, 'layers': 5}. Best is trial 0 with value: 0.6218183046849477.  
+Trial 5 finished with value: 0.673182351310431 and parameters: {'lr': 0.009680301063476912, 'layers': 2}. Best is trial 0 with value: 0.6218183046849477.  
+Trial 6 finished with value: 0.6683830691759862 and parameters: {'lr': 0.011582395722800459, 'layers': 3}. Best is trial 0 with value: 0.6218183046849477.  
+Trial 7 finished with value: 0.6068452560064431 and parameters: {'lr': 0.00018210843809040586, 'layers': 9}. Best is trial 7 with value: 0.6068452560064431.  
+Trial 8 finished with value: 0.6865685372037414 and parameters: {'lr': 0.011142661134112625, 'layers': 6}. Best is trial 7 with value: 0.6068452560064431.  
+Trial 9 finished with value: 0.6183899217506738 and parameters: {'lr': 0.0003317152516013088, 'layers': 7}. Best is trial 7 with value: 0.6068452560064431.  
+Trial 10 finished with value: 0.619240826116124 and parameters: {'lr': 0.00010418203530609069, 'layers': 10}. Best is trial 7 with value: 0.6068452560064431.  
+Trial 11 finished with value: 0.6655726914084668 and parameters: {'lr': 0.0007063219120085856, 'layers': 9}. Best is trial 7 with value: 0.6068452560064431.  
+Trial 12 finished with value: 0.6132047535421613 and parameters: {'lr': 0.00012324737081176635, 'layers': 8}. Best is trial 7 with value: 0.6068452560064431.  
+Trial 13 finished with value: 0.6134384036601396 and parameters: {'lr': 0.00010187515907979178, 'layers': 10}. Best is trial 7 with value: 0.6068452560064431.  
+Trial 14 finished with value: 0.7015156759341836 and parameters: {'lr': 0.0020477227073945215, 'layers': 8}. Best is trial 7 with value: 0.6068452560064431.  
+**Best Hyperparameters: {'lr': 0.00018210843809040586, 'layers': 9}**
+## Training
+Training: 100%|████████████████████████████| 5988/5988 [00:27<00:00, 215.10it/s]  
+Validating: 100%|██████████████████████████| 1997/1997 [00:03<00:00, 597.16it/s]  
+  
+Epoch: 10 | Training Loss: 0.405131 | Validation Loss: 0.645155  
+Early stopping!  
+
+## Testing
+Testing: 100%|█████████████████████████████| 2055/2055 [00:03<00:00, 514.58it/s]  
+  
+Test Loss: 0.635093  
+  
+Test Accuracy: 81.64%  
+  
+
