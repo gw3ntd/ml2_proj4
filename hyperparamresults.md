@@ -167,10 +167,10 @@ Trial 14 finished with value: 0.5598569185765433 and parameters: {'lr': 0.000832
 **Best Hyperparameters: {'lr': 0.0008328891086566471, 'dropout': 0.10069299506672715, 'layers': 2}**
 # Training
 Loss  
-	training         	 (min:    0.503, max:    0.789, cur:    0.503)  
-	validation       	 (min:    0.563, max:    0.599, cur:    0.564)  
+	training | (min:    0.503, max:    0.789, cur:    0.503)  
+	validation | (min:    0.563, max:    0.599, cur:    0.564)  
 lr  
-	lr               	 (min:    0.001, max:    0.001, cur:    0.001)  
+	lr | (min:    0.001, max:    0.001, cur:    0.001)  
   
 Training: 100%|████████████████████████████| 5988/5988 [00:15<00:00, 397.69it/s]  
 Validating: 100%|██████████████████████████| 1997/1997 [00:02<00:00, 941.56it/s]  
@@ -218,4 +218,44 @@ Test Loss: 0.635093
   
 Test Accuracy: 81.64%  
   
+
+# Model 7
+## Hyperparameter Tuning
+Trial 0 finished with value: 0.6567133381313602 and parameters: {'lr': 0.028249773673552723, 'layers': 5}. Best is trial 0 with value: 0.6567133381313602.  
+Trial 1 finished with value: 0.6733869965905002 and parameters: {'lr': 0.013709792695895342, 'layers': 8}. Best is trial 0 with value: 0.6567133381313602.  
+Trial 2 finished with value: 1.053004307975516 and parameters: {'lr': 0.06688971538579315, 'layers': 10}. Best is trial 0 with value: 0.6567133381313602.  
+Trial 3 finished with value: 0.6323278451792645 and parameters: {'lr': 0.00027522751277130096, 'layers': 9}. Best is trial 3 with value: 0.6323278451792645.  
+Trial 4 finished with value: 0.6738053823023303 and parameters: {'lr': 0.018969169530477996, 'layers': 8}. Best is trial 3 with value: 0.6323278451792645.  
+Trial 5 finished with value: 0.6334701992298999 and parameters: {'lr': 0.00027666057581969474, 'layers': 8}. Best is trial 3 with value: 0.6323278451792645.  
+Trial 6 finished with value: 0.6471261826078475 and parameters: {'lr': 0.0001030613724521018, 'layers': 8}. Best is trial 3 with value: 0.6323278451792645.  
+Trial 7 finished with value: 0.6499650687665777 and parameters: {'lr': 0.0013591296775615782, 'layers': 6}. Best is trial 3 with value: 0.6323278451792645.  
+Trial 8 finished with value: 0.6443189872530442 and parameters: {'lr': 0.03128475834676803, 'layers': 4}. Best is trial 3 with value: 0.6323278451792645.  
+Trial 9 finished with value: 0.6532777082893212 and parameters: {'lr': 0.04240391414337864, 'layers': 3}. Best is trial 3 with value: 0.6323278451792645.  
+Trial 10 finished with value: 0.6516020941432858 and parameters: {'lr': 0.0017075048185596657, 'layers': 10}. Best is trial 3 with value: 0.6323278451792645.  
+Trial 11 finished with value: 0.6371779450041447 and parameters: {'lr': 0.00017966021068581897, 'layers': 7}. Best is trial 3 with value: 0.6323278451792645.  
+Trial 12 finished with value: 0.669113167424947 and parameters: {'lr': 0.00043771775837668844, 'layers': 1}. Best is trial 3 with value: 0.6323278451792645.  
+Trial 13 finished with value: 0.6445250898435466 and parameters: {'lr': 0.00045345799495888855, 'layers': 9}. Best is trial 3 with value: 0.6323278451792645.  
+Trial 14 finished with value: 0.6606806287533591 and parameters: {'lr': 0.004624469404199019, 'layers': 6}. Best is trial 3 with value: 0.6323278451792645.  
+**Best Hyperparameters: {'lr': 0.00027522751277130096, 'layers': 9}**
+
+## Training
+Loss  
+	training | (min:    0.452, max:    1.267, cur:    0.452)  
+	validation | (min:    0.631, max:    0.715, cur:    0.643)  
+lr  
+	lr | (min:    0.000, max:    0.000, cur:    0.000)  
+  
+Training: 100%|████████████████████████████| 5988/5988 [00:26<00:00, 229.70it/s]  
+Validating: 100%|██████████████████████████| 1997/1997 [00:03<00:00, 649.72it/s]  
+  
+Epoch: 12 | Training Loss: 0.447590 | Validation Loss: 0.646619  
+Early stopping!  
+
+## Testing
+Testing: 100%|█████████████████████████████| 2055/2055 [00:03<00:00, 563.95it/s]  
+  
+Test Loss: 0.655914  
+  
+Test Accuracy: 81.42%  
+
 
